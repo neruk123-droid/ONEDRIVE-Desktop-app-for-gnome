@@ -84,40 +84,6 @@ Si instalaste la app con este repo:
 bash ~/.local/share/onedrive-rclone/uninstall.sh
 ```
 
-## Subir a GitHub
-
-Después de clonar o copiar este proyecto, los pasos típicos son:
-
-```bash
-cd /home/n3ruk/ONEDRIVEGIT
-git init
-git add .
-git commit -m "Initial import of OneDrive Rclone GNOME"
-```
-
-Luego creas un repositorio vacío en GitHub y enlazas el remoto:
-
-```bash
-git remote add origin git@github.com:TU_USUARIO/TU_REPO.git
-git branch -M main
-git push -u origin main
-```
-
-Si prefieres HTTPS:
-
-```bash
-git remote add origin https://github.com/TU_USUARIO/TU_REPO.git
-git branch -M main
-git push -u origin main
-```
-
-Si Git te pide identidad, configura una vez:
-
-```bash
-git config --global user.name "Tu Nombre"
-git config --global user.email "tu@email.com"
-```
-
 ## Configuración
 
 Variables útiles:
